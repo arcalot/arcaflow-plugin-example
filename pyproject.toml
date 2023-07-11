@@ -5,11 +5,12 @@ description = "Arcaflow Hello World Plugin"
 authors = ["Arcalot Contributors"]
 license = "Apache-2.0+GPL-2.0-only"
 readme = "README.md"
-packages = [{include = "arcaflow_plugin_example"}]
+
+packages = [{include ="example_plugin.py", from="./arcaflow_plugin_example"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-arcaflow-plugin-sdk = "0.10.0"
+arcaflow-plugin-sdk = "^0.10.3"
 
 
 [tool.poetry.group.dev.dependencies]
