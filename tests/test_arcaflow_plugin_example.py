@@ -23,7 +23,7 @@ class ExamplePluginTest(unittest.TestCase):
     def test_functional(self):
         input = example_plugin.InputParams(name=example_plugin.FullName("Arca", "Lot"))
 
-        output_id, output_data = example_plugin.hello_world(input)
+        output_id, output_data = example_plugin.hello_world(params=input, run_id="ci_test")
 
         # The example plugin always returns an error:
         self.assertEqual("success", output_id)
