@@ -40,7 +40,7 @@ RUN python -m pip install -r requirements.txt
 
 WORKDIR /app/${package}
 
-ENTRYPOINT ["python", "example_plugin.py"]
+ENTRYPOINT ["python", "arcaflow_plugin_example.py"]
 CMD []
 
 LABEL org.opencontainers.image.source="https://github.com/arcalot/arcaflow-plugin-example"
