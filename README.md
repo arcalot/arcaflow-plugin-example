@@ -22,7 +22,7 @@ Says hello :)
 <table><tbody>
 <tr><th>Type:</th><td><code>scope</code></td><tr><th>Root object:</th><td>InputParams</td></tr>
 <tr><th>Properties</th><td><details><summary>name (<code>one of[string]</code>)</summary>
-                <table><tbody><tr><th>Name:</th><td>Name</td></tr><tr><th>Description:</th><td>Who do we say hello to?</td></tr><tr><th>Required:</th><td>Yes</td></tr><tr><th>Examples (JSON encoded):</th><td>
+                <table><tbody><tr><th>Name:</th><td>Name</td></tr><tr><th>Description:</th><td width="500">Who do we say hello to?</td></tr><tr><th>Required:</th><td>Yes</td></tr><tr><th>Examples (JSON encoded):</th><td>
 <pre><code>{&#34;_type&#34;: &#34;fullname&#34;, &#34;first_name&#34;: &#34;Arca&#34;, &#34;last_name&#34;: &#34;Lot&#34;}</code></pre><pre><code>{&#34;_type&#34;: &#34;nickname&#34;, &#34;nick&#34;: &#34;Arcalot&#34;}</code></pre>
 </td></tr><tr><th>Type:</th><td><code>one of[string]</code></td></tbody></table>
             </details></td></tr>
@@ -39,7 +39,7 @@ Says hello :)
 </tbody></table>
         </details><details><summary>InputParams (<code>object</code>)</summary>
             <table><tbody><tr><th>Type:</th><td><code>object</code></td><tr><th>Properties</th><td><details><summary>name (<code>one of[string]</code>)</summary>
-        <table><tbody><tr><th>Name:</th><td>Name</td></tr><tr><th>Description:</th><td>Who do we say hello to?</td></tr><tr><th>Required:</th><td>Yes</td></tr><tr><th>Examples (JSON encoded):</th><td>
+        <table><tbody><tr><th>Name:</th><td>Name</td></tr><tr><th>Description:</th><td width="500">Who do we say hello to?</td></tr><tr><th>Required:</th><td>Yes</td></tr><tr><th>Examples (JSON encoded):</th><td>
 <pre><code>{&#34;_type&#34;: &#34;fullname&#34;, &#34;first_name&#34;: &#34;Arca&#34;, &#34;last_name&#34;: &#34;Lot&#34;}</code></pre><pre><code>{&#34;_type&#34;: &#34;nickname&#34;, &#34;nick&#34;: &#34;Arcalot&#34;}</code></pre>
 </td></tr><tr><th>Type:</th><td><code>one of[string]</code></td></tbody></table>
         </details></td></tr>
