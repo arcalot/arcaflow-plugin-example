@@ -49,3 +49,4 @@ LABEL org.opencontainers.image.vendor="Arcalot project"
 LABEL org.opencontainers.image.authors="Arcalot contributors"
 LABEL org.opencontainers.image.title="Arcaflow Example Plugin"
 LABEL io.github.arcalot.arcaflow.plugin.version="1"
+
